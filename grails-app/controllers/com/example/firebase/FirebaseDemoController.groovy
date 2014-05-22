@@ -16,14 +16,14 @@ class FirebaseDemoController {
 
         // Writing data
         firebaseRef.value  = [
-                address: [
-                        street: '123 Main Street',
-                        apt: 123,
-                        city: 'Columbus',
-                        zip: 43230,
-                        state: 'OH',
-                        country: 'USA'
-                ]
+            address: [
+                street: '123 Main Street',
+                apt: 123,
+                city: 'Columbus',
+                zip: 43230,
+                state: 'OH',
+                country: 'USA'
+            ]
         ]
         firebaseRef.onChildAdded { data, previous, error ->
             println "Add callback"

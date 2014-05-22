@@ -111,6 +111,7 @@ grails {
     plugin {
         firebase {
             base = "torid-fire-7633"
+            secretKey = "4CcJXNsXFXdDCs2ZTWIHZCa3TVWD5gSuFZ9SiVBi"
         }
     }
 }
